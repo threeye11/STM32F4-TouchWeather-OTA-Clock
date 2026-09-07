@@ -1,0 +1,13 @@
+# ===== Keil MDK 用户/生成文件（不入库） =====
+*.uvoptx                  # 调试器/编辑器个人选项
+*.uvguix.*                # GUI 布局个人文件
+**/DebugConfig/           # 调试配置（含本机路径）
+**/Objects/               # 编译输出 .o/.axf/.hex/.bin/.map
+**/Listings/              # 列表/映像文件 .lst/.map
+**/build_log.txt          # 构建日志
+*.bak
+*.dep
+
+# ===== 常见工具杂项 =====
+.DS_Store
+Thumbs.db
